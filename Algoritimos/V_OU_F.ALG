@@ -21,10 +21,9 @@ inicio
       escreval( (4 > 3) e (4 <> 2)) // "e" qundo as duas são verdadeiras
       //a resposta é verdadira, se uma for falsa,
       //a resposta passa passa a ser falsa
-      escreval( (2*3 > 2^3) ou (2*3 = 6)) // "ou" Se uma das duas forem
-      // verdadeiro o resultado é verdadeiro
-      resposta <- (2+5 > 5) xou (3*3 = 7) // "xou" se uma das duas forrem
-      // verdadeiro o resultado é verdadeiro
+      escreval( (2*3 > 2^3) ou (2*3 = 6)) // "ou" sempre que uma for diferente
+      // da outra será verdadeiro
+      resposta <- (2+5 > 5) xou (3*3 = 7) // "xou" uma variação do "ou"
       escreval(resposta)
 
 fimalgoritmo
